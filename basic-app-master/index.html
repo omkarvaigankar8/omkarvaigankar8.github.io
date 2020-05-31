@@ -1,69 +1,155 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Affordable and professional web design">
-	  <meta name="keywords" content="web design, affordable web design, professional web design">
-  	<meta name="author" content="Brad Traversy">
-    <title>Acme Web Deisgn | Welcome</title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Acme</span> Web Design</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>App Theme</title>
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet"  type="text/css" href="css/style.css">
+</head>
+<body class="bod"> 
+     <!-- HEADER -->
+    <header id="main-header">
+        <div class="container">
+          <div class="row end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+              <h1><span class="primary-text">App</span>Theme</h1>
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+              <nav id="navbar">
+                <ul>
+                  <li class="current"><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-          </ul>
-        </nav>
-      </div>
     </header>
 
-    <section id="showcase">
-      <div class="container">
-        <h1>Affordable Professional Web Design</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
-      </div>
-    </section>
-
-    <section id="newsletter">
-      <div class="container">
-        <h1>Subscribe To Our Newsletter</h1>
-        <form>
-          <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
-      </div>
-    </section>
-
-    <section id="boxes">
-      <div class="container">
-        <div class="box">
-          <img src="./img/logo_html.png">
-          <h3>HTML5 Markup</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+<!-- Showcase -->
+<section id="showcase">
+    <div class="container">
+        <div class="row center-xs center-sm center-md center-lg centre-xl middle-xs middle-sm middle-md middle-lg middle-xl">
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 showcase-content ">
+            <h1>Welcome to <span class="primary-text">My Site</span></h1>
+            <p>A Basic Web Site Showcasing My Work</p>
         </div>
-        <div class="box">
-          <img src="./img/logo_css.png">
-          <h3>CSS3 Styling</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-        </div>
-        <div class="box">
-          <img src="./img/logo_brush.png">
-          <h3>Graphic Design</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-        </div>
-      </div>
-    </section>
+    </div>
+    </div>
+</section>    
+<!-- Features -->
+<section id="features">
+    <div class="container">
+        <div class="row center-xs center-sm center-md center-lg centre-xl">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h2>Core Features</h2>
+                <p>Whats included</p>
+                <div class="row center-xs center-sm center-md center-lg centre-xl"><!--Row-1-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <i class="fa fa-dashboard"></i><br>
+                        <h4>Fully Optimized</h4>
+                        <p>Lorem ipsum dolor sit,</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <i class="fa fa-dashboard"></i><br>
+                        <h4>Quick</h4>
+                        <p>Lorem ipsum dolor sit,</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <i class="fa fa-dashboard"></i><br>
+                        <h4>Secure</h4>
+                        <p>Lorem ipsum dolor sit,</p>
+                    </div>
+                </div><!--row -1-->
 
-    <footer>
-      <p>Acme Web Deisgn, Copyright &copy; 2017</p>
-    </footer>
-  </body>
+                <div class="row center-xs center-sm center-md center-lg centre-xl"><!--Row-2-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <i class="fa fa-dashboard"></i><br>
+                        <h4>Fully Custom</h4>
+                        <p>Lorem ipsum dolor sit,</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <i class="fa fa-dashboard"></i><br>
+                        <h4>Expericed</h4>
+                        <p>Lorem ipsum dolor sit,</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <i class="fa fa-dashboard"></i><br>
+                        <h4>Cheap</h4>
+                        <p>Lorem ipsum dolor sit,</p>
+                    </div>
+                </div><!--row -2-->
+
+            </div>
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- INFO SECTION -->
+<section id="info">
+    <div class="container">
+        <div class="row center-xs center-md center-sm center-lg">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <img src="img/iphone.png">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <h2>Core Features</h2>
+                <ul>
+                    <li><i class="fa fa-check">awesome</i></li>
+                     <li><i class="fa fa-check">Great</i></li>
+                     <li><i class="fa fa-check">Fantastic</i></li>
+                     <li><i class="fa fa-check">Marvellous</i></li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Company-->
+<section id="company">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h4>Contact US</h4>
+                 <p><i class="fa-fa-phone">9130681853</i></p>
+                 <p><i class="fa-fa-envelope">omkarvaigankar8@gmail.com</i></p>
+                 <p><i class="fa-fa-map">Arambol,Goa</i></p>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h4>About US</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h4>Newsletter</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <form action="">
+                 <input type="text" name="email" placeholder="Enter email">
+                 <button type="submit" name="button">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="main-footer">
+    <div class="container">
+        <div class="row center-xs center-sm center-md center-lg">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-md-12">
+                <p>Copyright &copy; 2020 | Portofolio</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
 </html>
