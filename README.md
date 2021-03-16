@@ -6,7 +6,7 @@
   color:#2c2c2c;
   }
   a:hover{
-  color:#eee
+  color:#eee;
   }
 </style>
 <div class="container">
