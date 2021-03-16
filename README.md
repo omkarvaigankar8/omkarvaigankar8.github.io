@@ -1,12 +1,10 @@
 <style>
-  .container{
-    background-color:#f9f9f9;
-  }
-  a {
-  color:#2c2c2c;
+
+  a, h1 {
+  color:#222;
   }
   a:hover{
-  color:#eee;
+  color:#2c2c2c;
   }
 </style>
 <div class="container">
