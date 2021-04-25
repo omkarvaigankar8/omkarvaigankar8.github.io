@@ -12,7 +12,7 @@
   <a href="https://omkarvaigankar8.github.io/weather-app" target="_blank">Weather App</a><br>
   <a href="https://omkarvaigankar8.github.io/grid-layout/" target="_blank">Grid Layout</a><br>
   <a href="https://omkarvaigankar8.github.io/app-theme-master" target="_blank">App-Theme</a><br>
-  <a href="https://omkarvaigankar8.github.io/basic-app-master/" target="_blank">Basic-App</a>
-  <a href="https://omkarvaigankar8.github.io/index.html/" target="blank">Todo-List</a>
+  <a href="https://omkarvaigankar8.github.io/basic-app-master/" target="_blank">Basic-App</a><br>
+  <a href="https://omkarvaigankar8.github.io/index.html" target="_blank">Todo-List</a>
 </div>
 
